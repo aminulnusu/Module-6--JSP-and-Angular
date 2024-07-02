@@ -1,7 +1,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page  import="model.Student"%>
 <%@page  import="dao.StudentDao"%>
-<%@page  import="java.util.*"%>
+<%@page  import="java.util.*" %>
 
 
 
@@ -30,15 +30,14 @@
     <tbody>
         <c:forEach var="s" items="${list}">
             <tr>
-                <td>${e.getId()}</td>
-                <td>${e.getName()}</td>
-                <td>${e.getEmail()}</td>
-                <td>${e.getAddress()}</td>
-                <td>${e.getCell()}</td>
+                <td>${s.getId()}</td>
+                <td>${s.getName()}</td>
+                <td>${s.getEmail()}</td>
+                <td>${s.getAddress()}</td>
+                <td>${s.getCell()}</td>
                 <td>
-                    <a href="editstudent.jsp?id=${e.getId()}" > Edit </a>
-                    <a href="deletestudent.jsp?id=${e.getId()}" > Delete </a>
-
+                    <a href="" > Edit </a>
+                    <a href="deletestudent.jsp?id=${s.getId()}" > Delete </a>
                 </td>
 
             </tr>
