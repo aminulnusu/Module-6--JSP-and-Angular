@@ -13,7 +13,7 @@
 
         <%=new java.util.Date() %> <br>
         <br>
-        <a href="studentaddform.jsp" style="color: aqua">Add Student</a>        <br>
+        <a href="studentaddform.jsp" style="color: aqua">Add Student</a>  <br>
         <br>
         <a href="viewallstudent.jsp" style="color: aqua">View All Student</a>
 
