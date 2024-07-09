@@ -9,8 +9,7 @@
 <jsp:setProperty name="student" property="*"/>
 
 <%
-
-    int i = StudentDAO.saveStudent(student);
+int i = StudentDao.saveStudent(student);
 
     if (i > 0) {
         response.sendRedirect("success.jsp");

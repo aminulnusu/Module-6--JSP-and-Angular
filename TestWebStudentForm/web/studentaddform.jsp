@@ -15,7 +15,7 @@
         <h1>Student Form</h1>
 
         <form action="savestudent.jsp" method="post">
-            Id No: <input type="text" name="id"> <br>
+<!--            Id No: <input type="text" name="id"> <br>-->
             Name: <input type="text" name="name"> <br>
             email: <input type="email" name="email"> <br>
             address: <input type="text" name="adrress"> <br>
