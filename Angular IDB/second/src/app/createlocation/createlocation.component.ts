@@ -66,4 +66,6 @@ export class CreatelocationComponent implements OnInit {
 
   }
 
+  
+
 }
