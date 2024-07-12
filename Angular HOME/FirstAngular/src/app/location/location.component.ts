@@ -8,20 +8,26 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './location.component.html',
   styleUrl: './location.component.css'
 })
-export class LocationComponent implements OnInit{
-  locations:any;
 
-  constructor(
-    private locationService: LocationService,
+
+export class LocationComponent implements OnInit {
+locations:any;
+
+  constructor(private locationService: LocationService,
     private router: Router,
     private httpClient: HttpClient
-  ) {
+  ) { 
 
   }
-
   ngOnInit(): void {
     
-    this.locations=this.locationService.getAllLocation();
+this.locations=this.locationService.getAllLocation();
+
   }
+
+
+
+
+
 
 }
