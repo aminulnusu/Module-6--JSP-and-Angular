@@ -1,21 +1,30 @@
 {
   "locations": [
     {
-      "id": "88a5",
+      "id": "d3d1",
       "name": "nusu",
-      "city": "bogura",
-      "state": "sherpur",
+      "city": "dhaka",
+      "state": "mohammadpur",
       "photo": "nai",
-      "availableUnits": 4,
+      "availableUnits": "47",
       "laundry": true
     },
     {
-      "id": "b0c9",
-      "name": "cc",
-      "city": "ccc",
-      "state": "ccc",
-      "photo": "ccc",
-      "availableUnits": 2,
+      "id": "8ea6",
+      "name": "aminul",
+      "city": "Bogura",
+      "state": "Sherpur",
+      "photo": "nai",
+      "availableUnits": 26,
+      "laundry": true
+    },
+    {
+      "id": "df06",
+      "name": "abid",
+      "city": "dhaka",
+      "state": "",
+      "photo": "",
+      "availableUnits": 11,
       "laundry": true
     }
   ]

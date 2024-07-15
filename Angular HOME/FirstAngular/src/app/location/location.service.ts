@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { location } from './location.model';
+import { Location } from './location.model';
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +18,7 @@ export class LocationService {
     return this.httpClient.get(this.baseUrl);
   }
 
-  createLocation(location: location): Observable<any> {
+  createLocation(location: Location): Observable<any> {
 
     return this.httpClient.post(this.baseUrl, location);
 
@@ -31,13 +31,18 @@ export class LocationService {
 
   }
 
-updateLocation(id:string,location:location ):Observable<any>{
+ updateLocation(id:string,location:Location ):Observable<any>{
 return this.httpClient.put(this.baseUrl+"/"+id,location);
 
 }
 
 getById(id:string):Observable<any>{
 return this.httpClient.get(this.baseUrl+ "/" +id);
+}
+
+updatelocation(id:string,location:Location):Observable<any>{
+
+  return this.httpClient.put(this.baseUrl+"/"+id,location)
 }
 
 

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LocationService } from '../location/location.service';
 import { Route, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { location } from '../location/location.model';
+import { Location } from '../location/location.model';
 import { response } from 'express';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { error } from 'console';
@@ -16,7 +16,7 @@ import { error } from 'console';
 
 
 export class CreatelocationComponent implements OnInit {
-  location: location = new location();
+  location: Location = new Location();
  
   formValue!: FormGroup;
   locationData: any;
