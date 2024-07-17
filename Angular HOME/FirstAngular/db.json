@@ -20,11 +20,20 @@
     },
     {
       "id": "df06",
-      "name": "abid",
+      "name": "aminul",
       "city": "dhaka",
       "state": "",
       "photo": "",
       "availableUnits": 11,
+      "laundry": true
+    },
+    {
+      "id": "0fc4",
+      "name": "ttt",
+      "city": "ttt",
+      "state": "ttt",
+      "photo": "ttt",
+      "availableUnits": 3,
       "laundry": true
     }
   ]
